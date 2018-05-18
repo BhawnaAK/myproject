@@ -1,0 +1,15 @@
+--- 
+database: 
+  driverClass: com.mysql.jdbc.Driver
+  password: Root
+  url: "jdbc:mysql://localhost:3306/testdb"
+  user: root
+server: 
+  adminConnectors: 
+    - 
+      port: 8086
+      type: http
+  applicationConnectors: 
+    - 
+      port: 8085
+      type: http
